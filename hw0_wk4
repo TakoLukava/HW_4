@@ -1,0 +1,10 @@
+c = {}
+l = [2,25,69,5,4,3,32,3,69,5,78,8,25,32,32,4,]
+
+for i in l:
+  if i in c:
+    c [i] +=1
+  else:
+    c[i]= 1
+
+print ('Max v is {}, num: {}'.format(*max(c.items(), key= lambda x: x[1])))
