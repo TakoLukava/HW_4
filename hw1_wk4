@@ -13,12 +13,6 @@ matrix = [
 counter = 0
 
 for i in matrix:
-  #print (i)
-  
   for j in i:
-    
-    #print('j: %s' %j)
-    
     counter +=j/(len(matrix)*len(i))
-    
 print(counter)
